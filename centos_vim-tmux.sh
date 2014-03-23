@@ -65,7 +65,7 @@ make clean
 make install
 
 # IMPORTANT: Update your $PATH.
-# export PATH=$HOME/local:$PATH
+# export PATH=$HOME/local/bin:$PATH
 # 
 # If you don't, you wont have access to your new shiny vim and tmux binaries
 
