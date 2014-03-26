@@ -14,4 +14,8 @@ curl -O -L "http://www.modern.ie/vmdownload?platform=linux&virtPlatform=virtualb
 
 # The `.ova` files are actually `tar` containers. You can extract the 
 # virtual machine disk images from these for use with virt-manager/qemu/qcow
+# Example:
+#  
+#  $ file "IE6 - WinXP.ova"
+#  IE6 - WinXP.ova: POSIX tar archive (GNU)
 
