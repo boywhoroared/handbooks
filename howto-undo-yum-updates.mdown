@@ -1,0 +1,14 @@
+# How To Reverse Updates on Fedora
+
+If Fedora updates, breaking your system, you can revert using the `yum history` command. Find the `Transaction ID` of the update to reverse, then use `sudo yum history undo <Transaction ID>` to reverse it.
+
+~~~
+# show list of updates
+sudo yum history list
+
+# show info about a specific update
+sudo yum history info <transaction id>
+
+# undo/reverse an update
+sudo yum history undo <transaction id>
+~~~
