@@ -12,3 +12,10 @@ On Mac OS X, Command-Right seems to be mapped to Mod4/Super for VirtualBox guest
 - AwesomeWM is dynamic and seems friendly enough.
 - i3 is configured with a plain text file and also looks simple enough
 - herbsstluftwm also looks pretty simple. Configuration is in bash.
+
+## Terminal Emulators
+gnome-terminal is not the end all be all. There are better (faster and/or ligther) terminal emulators. Check out:
+
+- Termite
+- sakura
+- uvrxt (Seems to require a significant set of customisation before it becomes usable for me)
