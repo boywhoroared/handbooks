@@ -1,0 +1,2 @@
+# The Super Key
+On Mac OS X, Command-Right seems to be mapped to Mod4/Super. Remember this when you're using some of those Tiling WMs.
