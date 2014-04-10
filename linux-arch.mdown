@@ -1,2 +1,12 @@
-# The Super Key
+### The Super Key
 On Mac OS X, Command-Right seems to be mapped to Mod4/Super. Remember this when you're using some of those Tiling WMs.
+
+## Making It Pretty
+- The Shimmer themes, in particular Greybird. Check your pinboard tags "linux themes".
+- This is a good looking for tiling wm. http://dotshare.it/dots/720/
+
+## Tiling WMs
+- These seem like a good idea. Try: awesomewm, i3, or herbstluftwm. 
+- AwesomeWM is dynamic and seems friendly enough.
+- i3 is configured with a plain text file and also looks simple enough
+- herbsstluftwm also looks pretty simple. Configuration is in bash.
