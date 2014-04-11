@@ -19,3 +19,16 @@ gnome-terminal is not the end all be all. There are better (faster and/or ligthe
 - Termite
 - sakura
 - uvrxt (Seems to require a significant set of customisation before it becomes usable for me)
+
+## Font Smoothing
+The *infinality* package is quick fix for this. On Fedora/Arch install through package manager/AUR. 
+
+### Arch 
+Arch has a nice preconfigured package, `infinality-bundle` by bohoomil.
+https://bbs.archlinux.org/viewtopic.php?id=162098
+
+### Fedora
+
+`sudo /etc/fonts/infinality/infctl.sh setstyle osx`
+
+Almost like home.
