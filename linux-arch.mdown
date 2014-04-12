@@ -32,3 +32,13 @@ https://bbs.archlinux.org/viewtopic.php?id=162098
 `sudo /etc/fonts/infinality/infctl.sh setstyle osx`
 
 Almost like home.
+
+
+# Networking
+
+## Wireless
+
+~~~
+# list available wireless networks quality, encryption and SSID
+sudo iwlist <device> scan | grep -P "Quality|Encryption key|ESSID" -
+~~~
