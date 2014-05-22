@@ -1,0 +1,81 @@
+# Command Line How To
+
+## Show Running Scripts/Jobs for a User
+
+    ps -fu <username>
+
+## Kill a running job/script/process.
+
+The syntax is:
+
+    kill [signal] <PID>
+
+
+    # kill with SIGTERM (15) / Terminate
+    kill -15 PID
+
+    # or 
+    kill -SIGTERM PID
+
+    # kill with SIGKILL (9) / Kill
+    kill -9 PID
+
+    # or 
+    kill -SIGKILL PID
+
+
+- SIGHUP (1) - Hangup detected on controlling terminal or death of controlling
+process. Use SIGHUP to reload configuration files and open/close log files.
+
+- SIGKILL (9) - Kill signal. Use SIGKILL as a last resort to kill process. This
+will not save data or cleaning kill the process.
+
+- SIGTERM (15) - Termination signal. This is the default and safest way to kill
+process.
+
+See <http://www.cyberciti.biz/faq/kill-process-in-linux-or-terminate-a-process-in-unix-or-linux-systems/>
+
+
+## List open files for a Process
+
+### UNIX List Open Files For Process
+
+First use ps command to get PID of process, enter:
+
+    $ ps -aef | grep {process-name}
+    $ ps -aef | grep httpd
+
+Next pass this PID to pfiles command,
+
+    $ pfiles {PID}
+    $ pfile 3533
+
+### Linux List Open Files For Process
+
+First you need to find out PID of process. Simply use any one of the following
+command to obtain process id:
+
+    # ps aux | grep {program-name}
+
+OR
+
+    $ ps -C {program-name} -o pid=
+
+For example, find out PID of firefox web-browser, enter:
+
+    $ ps -C firefox -o pid=
+
+Output:
+
+    7857
+
+To list open files for firefox process, enter:
+
+    $ ls -l /proc/7857/fd
+
+See <http://www.cyberciti.biz/faq/howto-linux-get-list-of-open-files/>
+
+
+## Run a bash script in the background
+
+    nohup cmd &
