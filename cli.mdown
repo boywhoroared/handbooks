@@ -79,3 +79,8 @@ See <http://www.cyberciti.biz/faq/howto-linux-get-list-of-open-files/>
 ## Run a bash script in the background
 
     nohup cmd &
+    
+## Find executable files in current directory
+
+    find . -maxdepth 1 -type f -perm /u=x,g=x,o=x
+
