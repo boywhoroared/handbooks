@@ -2,8 +2,8 @@
 
 My Nexus works best on Android 4.0.4.
 
-| ROM | Google Android 4.0.4 for Nexus S | |
-| Kernel | Air Kernel | Use smartassv2, deadline | 
+- ROM: Google Android 4.0.4 for Nexus S
+- Kernel:  Air Kernel; Use smartassv2, deadline
 
 
 ## Fresh Start
@@ -42,11 +42,11 @@ My Nexus works best on Android 4.0.4.
 
 ## Root
 
-Reboot to recovery.
-Mount USB Storage.
-Copy SuperSU APK from `~/Dropbox/Android/nexus-s/` to USB storage.
-Flash SuperSU APK.
-Reboot to System.
+1. Reboot to recovery.
+2. Mount USB Storage.
+3. Copy SuperSU APK from `~/Dropbox/Android/nexus-s/` to USB storage.
+4. Flash SuperSU APK.
+5. Reboot to System.
 
 ## Enable ADB
 Enable USB Debugging via Settings > Developer Options > USB Debugging.
