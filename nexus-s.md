@@ -79,13 +79,13 @@ Enable USB Debugging via Settings > Developer Options > USB Debugging.
 
 ## Configure Tweaks
 
-1. Install SetCPU: `adb install SetCPU.apk`.
-2. Install NSTools: `adb install NSTools.apk` or via Google Play. 
+1. Install NSTools: `adb install NSTools.apk` or via Google Play. 
 3. Use NSTools to enable: 
    - Backlight Dimmer (turns off capacitative LEDs after a timeout period).
    - Backlight Notifications (blink capacitative LEDs to indicate
        notifications).
-4. Use SetCPU to enable the `smartassv2` governor and `deadline` schedulers.
+   - Governor: `smartassv2`
+   - IO Scheduler: `deadline`
 
 
 ## Install Apps
