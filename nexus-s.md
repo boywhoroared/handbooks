@@ -83,7 +83,9 @@ Enable USB Debugging via Settings > Developer Options > USB Debugging.
 3. Use NSTools to enable: 
    - Backlight Dimmer (turns off capacitative LEDs after a timeout period).
    - Backlight Notifications (blink capacitative LEDs to indicate
-       notifications).
+       notifications). * To enable the LED Timeout feature you must enable 
+       NSTools service on the Settings tab, otherwise it will not work. 
+       Enabling this service also notifies you of Missed Calls.
    - Governor: `smartassv2`
    - IO Scheduler: `deadline`
 
